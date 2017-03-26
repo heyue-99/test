@@ -1,0 +1,354 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  border: none;
+}
+input,
+select,
+textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+textarea {
+  resize: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #6daed8;
+  font: 12px/1.3 'Arial', 'Microsoft YaHei';
+}
+body a {
+  color: #333;
+}
+body input {
+  color: #808080;
+}
+.header {
+  background-color: #fff;
+  height: 48px;
+  width: 100%;
+  border-top: 2px solid #fa7d3c;
+  position: fixed;
+  top: 0px;
+}
+.header .header_content {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+}
+.header .header_content:before,
+.header .header_content:after {
+  display: table;
+  content: "";
+}
+.header .header_content:after {
+  clear: both;
+}
+.header .logo {
+  float: left;
+  display: inline;
+  height: 27px;
+  width: 80px;
+  background: url(../img/logo.jpg) left top no-repeat;
+  margin: 8px 30px 13px 10px;
+}
+.header .logo a {
+  display: block;
+  height: 100%;
+}
+.header .search {
+  float: left;
+  display: inline;
+}
+.header .search .searchText {
+  border: 1px solid #CCCCCC;
+  width: 468px;
+  height: 28px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  padding-left: 9px;
+  background: url(../img/search.jpg) 98% no-repeat #f2f2f5;
+}
+.header .headerNav {
+  float: left;
+  display: inline;
+  height: 20px;
+  width: 478px;
+  margin: 14px 22px 14px 48px;
+  border-right: 1px solid #CCCCCC;
+  font-size: 14px;
+}
+.header .headerNav li {
+  margin-right: 25px;
+  float: left;
+}
+.header .headerNav li a {
+  display: inline-block;
+  height: 20px;
+  padding-left: 26px;
+}
+.header .headerNav li a:hover {
+  color: #fa7d3c;
+}
+.header .headerNav li .home {
+  background: url(../img/home.jpg) left center no-repeat;
+}
+.header .headerNav li .video {
+  background: url(../img/video.jpg) left center no-repeat;
+}
+.header .headerNav li .found {
+  background: url(../img/found.jpg) left center no-repeat;
+}
+.header .headerNav li .game {
+  background: url(../img/game.jpg) left center no-repeat;
+}
+.header .headerNav li .me {
+  background: url(../img/me.jpg) left center no-repeat;
+}
+.header .headerNav2 {
+  float: left;
+  display: inline;
+  margin: 9px 0px 12px 0px;
+}
+.header .headerNav2 li {
+  display: inline;
+  margin-right: 14px;
+}
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 115px;
+  margin-bottom: 89px;
+  width: 208px;
+  height: 160px;
+  color: white;
+  text-align: center;
+}
+.title .name {
+  font-size: 22px;
+  margin-bottom: 8px;
+  *zoom: 1;
+}
+.title .name:before,
+.title .name:after {
+  display: table;
+  content: "";
+}
+.title .name:after {
+  clear: both;
+}
+.title .name li {
+  float: left;
+  display: inline;
+}
+.title .name li img {
+  padding-top: 6px;
+}
+.main {
+  width: 920px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main .topCon {
+  width: 100%;
+  height: 42px;
+  background-color: white;
+}
+.main .topCon .topConselect {
+  width: 100%;
+  line-height: 42px;
+  padding-left: 243px;
+  font-size: 14px;
+}
+.main .topCon .topConselect li {
+  float: left;
+  display: inline;
+  margin-right: 110px;
+  width: 70px;
+  text-align: center;
+  height: 40px;
+}
+.main .topCon .topConselect li.active {
+  border-bottom: 2px solid #fa7d3c;
+  font-weight: bold;
+}
+.main .topCon .topConselect li:hover {
+  border-bottom: 2px solid #fa7d3c;
+}
+.main .leftarea {
+  width: 300px;
+  height: 255px;
+  float: left;
+  display: inline;
+  margin: 15px 20px 0 0;
+}
+.main .leftarea .leftarea1 {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  border-radius: 3px;
+  text-align: center;
+}
+.main .leftarea .leftarea1 ul {
+  width: 100%;
+  height: 30px;
+  float: left;
+  display: inline;
+}
+.main .leftarea .leftarea1 ul.num li {
+  padding-top: 10px;
+  font-family: Tahoma;
+  font-weight: 400;
+  font-size: 18px;
+}
+.main .leftarea .leftarea1 ul.num li a:hover {
+  color: #fa7d3c;
+}
+.main .leftarea .leftarea1 ul.fan {
+  font-size: 13px;
+}
+.main .leftarea .leftarea1 ul.fan li {
+  padding-top: 4px;
+}
+.main .leftarea .leftarea1 ul.fan li a {
+  color: #808080;
+}
+.main .leftarea .leftarea1 li {
+  float: left;
+  display: inline;
+  width: 100px;
+}
+.main .leftarea .leftarea2 {
+  height: 160px;
+  width: 100%;
+  background-color: white;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+.main .leftarea .leftarea2 .setMes {
+  text-align: center;
+  border-top: 1px solid #CCCCCC;
+  line-height: 35px;
+}
+.main .leftarea .leftarea2 .setMes a:hover {
+  color: #fa7d3c;
+}
+.main .rightarea {
+  width: 600px;
+  height: 300px;
+  margin: 15px 0 0 0;
+  float: left;
+  display: inline;
+}
+.main .rightarea .rightarea1 {
+  background-color: #F2F2F5;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+}
+.main .rightarea .rightarea1 ul {
+  float: left;
+  display: inline;
+  line-height: 40px;
+  text-align: center;
+}
+.main .rightarea .rightarea1 ul li {
+  float: left;
+  display: inline;
+  width: 90px;
+  height: 38px;
+  border-radius: 3px;
+}
+.main .rightarea .rightarea1 ul li.active {
+  font-weight: bold;
+  background-color: white;
+  border-bottom: 2px solid #fa7d3c;
+}
+.main .rightarea .rightarea1 ul li:hover {
+  border-bottom: 2px solid #fa7d3c;
+}
+.main .rightarea .rightarea1 ul li:hover a {
+  color: #fa7d3c;
+}
+.main .rightarea .rightarea1 .sousuo {
+  float: right;
+  display: inline;
+  line-height: 40px;
+}
+.main .rightarea .rightarea1 .sousuo .sousuoText {
+  border: 1px solid #CCCCCC;
+  height: 25px;
+  width: 175px;
+  padding-left: 9px;
+  background: url(../img/search_s.png) 98% no-repeat #ffffff;
+  margin-right: 10px;
+}
+.main .rightarea .rightarea1 .sousuo .sousuoText:focus {
+  border-color: #fa7d3c;
+}
+.main .rightarea .rightarea2 {
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 3px;
+  height: 380px;
+}
+.main .rightarea .rightarea2 .content {
+  width: 100%;
+  height: 345px;
+  border-bottom: 1px solid #F2F2F5;
+}
+.main .rightarea .rightarea2 .content .contentImg {
+  float: left;
+  display: inline;
+  height: 100%;
+  width: 80px;
+}
+.main .rightarea .rightarea2 .content .contentWen a:hover {
+  color: #fa7d3c;
+}
+.main .rightarea .rightarea2 .allcomment {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  line-height: 20px;
+}
+.main .rightarea .rightarea2 .allcomment ul {
+  padding: 8px 0;
+  width: 100%;
+  height: 20px;
+}
+.main .rightarea .rightarea2 .allcomment li {
+  width: 149px;
+  height: 100%;
+  float: left;
+  display: inline;
+  border-right: 1px solid #D9D9D9;
+}
+.main .rightarea .rightarea2 .allcomment li a {
+  color: #808080;
+  padding-left: 20px;
+}
+.main .rightarea .rightarea2 .allcomment li a:hover {
+  color: #fa7d3c;
+}
+.main .rightarea .rightarea2 .allcomment li .zhuan {
+  background: url(../img/zhuan.png) left center no-repeat;
+}
+.main .rightarea .rightarea2 .allcomment li .comment {
+  background: url(../img/commemt.png) left center no-repeat;
+}
+.main .rightarea .rightarea2 .allcomment li .zan {
+  background: url(../img/zan.png) left center no-repeat;
+}
