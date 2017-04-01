@@ -1,4 +1,4 @@
-模仿微博个人界面
+微博个人主页
 ====  
 用fireworks切图，使用LESS，Koala在线编译。  
----2017-02-01 
+[我的博客](http://blog.csdn.net/heyue_99) 
